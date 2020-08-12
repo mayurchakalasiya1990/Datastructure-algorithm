@@ -1,0 +1,23 @@
+1. Single Resource and multiple consumer to be served on arrival order
+2. Synchronization between slow and fast device (use as a buffer)
+
+    Operating System:
+        1. Semaphore
+        2. FCFS Scheduling
+        3. Priority Queue
+        4. Spooling on Printer Device
+        5. Keyboard
+
+     Computer Network:
+      1. Queue in Switch and router
+      2. Mail Queue
+
+
+     Real World Application
+       1. doctor's Queue
+       2. Ticket Window
+
+3. Type of Queue :
+        1. Dqueue
+        2. Priority Queue
+        3. Doubly Ended Queue
