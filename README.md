@@ -1,6 +1,5 @@
 # Datastructure-algorithm
-all the basic datastructure implimentation and realted algorithms
-
+All the basic datastructure implimentation and realted algorithms
 
 DataStrucure and Algorithm Covered:
 
