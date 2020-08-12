@@ -13,7 +13,7 @@ DataStrucure and Algorithm Covered:
     • Previous Greater Element Efficient Solution   
     • Previous Greater Element Naive Solution   
     • Stack Implementation  
-    • Stock Span Efficient solution 
+    • Stock Span Efficient solution  
     • Stock Span Naive Solution 
     • Two Stacks In Single Array    
 2) LinkedList
