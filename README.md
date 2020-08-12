@@ -12,10 +12,11 @@ DataStrucure and Algorithm Covered:
     • Next Greater Element Naive Solution   
     • Previous Greater Element Efficient Solution   
     • Previous Greater Element Naive Solution   
-    • Stack Implementation  
-    • Stock Span Efficient solution  
-    • Stock Span Naive Solution 
-    • Two Stacks In Single Array    
+    • Stack Implementation      
+    • Stock Span Efficient solution      
+    • Stock Span Naive Solution     
+    • Two Stacks In Single Array        
+    
 2) LinkedList
 
     • Circular LinkedList   
@@ -28,7 +29,7 @@ DataStrucure and Algorithm Covered:
     • Flyod Cycle Detection 
     • Intersection Of 2 LinkedList  
     • Last Nth Node From End    
-    • LinkedList Implementation 
+    • LinkedList Implementation  
     • LRU Cache Design  
     • Merge Sorted LinkedList   
     • Middle Of LinkedList  
@@ -36,16 +37,17 @@ DataStrucure and Algorithm Covered:
     • Reverse LinkedList    
     • Reverse Linked List Recursion Method-1    
     • Reverse LinkedList Recursion Method-2 
-    • Swap Node Pair wise   
+    • Swap Node Pair wise       
+
 3) Queue
 
     • Array Circular Queue  
     • Generate Number   
-    • Linked List Queue 
-    • Queue 
-    • Reverse Queue 
-    • Reversing First K Element 
-    • Stack Using Queue 
+    • Linked List Queue     
+    • Queue     
+    • Reverse Queue     
+    • Reversing First K Element     
+    • Stack Using Queue     
     
 4) Graph
 5) String 
@@ -59,6 +61,7 @@ DataStrucure and Algorithm Covered:
     • Pangram String    
     • Strong Password   
     • Weighted Uniform  
+    
 6) tree
 
 
