@@ -14,9 +14,7 @@ public class SwapNodePairwise {
             Object value1=curr.value;
             curr.value=curr.next.value;
             curr.next.value=value1;
-
             curr=curr.next.next;
-
         }
     }
 

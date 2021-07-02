@@ -57,7 +57,7 @@ public class MergeSort {
             k++;
         }
 
-        /* Copy remaining elements of R[] if any */
+        /* Copy remaining el   nts of R[] if any */
         while (j < n2) {
             arr[k] = R[j];
             j++;

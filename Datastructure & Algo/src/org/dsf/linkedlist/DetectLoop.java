@@ -4,16 +4,15 @@ import org.dsf.linkedlist.LinkedListImpl.*;
 
 public class DetectLoop {
 
-    static boolean isLoopDetected(Node head){
+    /*static boolean isLoopDetected(Node head){
         Node curr=head;
-        while(curr!=null){
-            if(curr.visited){
-                return true;
+        while(cur
+        return true;
             }
             curr=curr.next;
         }
         return false;
-    }
+    }*/
 
     public static void main(String[] args) {
 
@@ -23,7 +22,7 @@ public class DetectLoop {
         linkedList.insertAtBegin(30);
         linkedList.insertAtBegin(40);
         linkedList.printLinkedList();
-        System.out.println("is Loop detected? "+isLoopDetected(linkedList.head));
+        //System.out.println("is Loop detected? "+isLoopDetected(linkedList.head));
 
     }
 }
