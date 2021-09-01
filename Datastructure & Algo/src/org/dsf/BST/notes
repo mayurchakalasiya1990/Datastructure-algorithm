@@ -1,0 +1,4 @@
+1) nodes in left side are smaller and nodes in right side are greater
+2) All nodes are distinct.
+3) Like Linked list, it's a linked data Structure.
+4) Java implementation : TreeSet,TreeMap
