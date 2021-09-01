@@ -41,7 +41,4 @@ public class MAXSumForSubArray {
         }
         return res;
     }
-
-
-
 }
