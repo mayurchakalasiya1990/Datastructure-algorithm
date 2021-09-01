@@ -5,17 +5,16 @@ public class ReverseWordInString {
     public static void main(String[] args) {
         String st1="My name is mayur.";
         //char[] ch=st1.toCharArray();
-        reveseWord(st1);
+        reverseWord(st1);
         //System.out.println(String.valueOf(ch));
     }
 
     /*
         1) Reverse words mayur => ruyam
-        2) reverse full String 
-
+        2) reverse full String
      */
 
-    static void reveseWord(String str){
+    static void reverseWord(String str){
 
         char[] sChar=str.toCharArray();
          int start=0,end=0;
