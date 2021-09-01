@@ -70,7 +70,7 @@ public class BinaryTree {
         /* first print data of node */
         System.out.print(node.key + " ");
 
-        /* then recur on left sutree */
+        /* then recur on left subtree */
         preorder(node.left);
 
         /* now recur on right subtree */
@@ -128,7 +128,9 @@ public class BinaryTree {
 
         System.out.println("\nheight of binary tree is "+tree.height(tree.root));
 
-        tree.printKDistNode(tree.root,2);
+        int k=1;
+        System.out.println("print "+k+" dist node: ");
+        tree.printKDistNode(tree.root,k);
 
     }
 

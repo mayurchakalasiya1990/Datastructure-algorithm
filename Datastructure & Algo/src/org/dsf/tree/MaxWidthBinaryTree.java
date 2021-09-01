@@ -17,12 +17,12 @@ public class MaxWidthBinaryTree {
             maxWidth=maxWidth<count?count:maxWidth;
             // iterate at tree level - line by line
             for (int i = 0; i < count; i++) {
-                queue.poll();
-                if(root.left!=null){
-                    queue.add(root.left);
+                Node curr=queue.poll();
+                if(curr.left!=null){
+                    queue.add(curr.left);
                 }
-                if(root.right!=null){
-                    queue.add(root.right);
+                if(curr.right!=null){
+                    queue.add(curr.right);
                 }
             }
         }
@@ -34,6 +34,7 @@ public class MaxWidthBinaryTree {
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
+        tree.root.right.left = new Node(6);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
 
