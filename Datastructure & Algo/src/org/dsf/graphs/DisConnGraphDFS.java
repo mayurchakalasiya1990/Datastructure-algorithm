@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class DisConnGraphDFS {
 
     static int vertex=5;
-    static Graph g=null;
+    static UndirectedGraph g=null;
 
 
 
@@ -45,7 +45,7 @@ public class DisConnGraphDFS {
 
     public static void main(String[] args) {
 
-        g=new Graph(vertex);
+        g=new UndirectedGraph(vertex);
 
         g.addEdge(0, 1);
         g.addEdge(0, 2);

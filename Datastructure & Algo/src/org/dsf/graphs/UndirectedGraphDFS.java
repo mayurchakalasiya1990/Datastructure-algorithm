@@ -3,10 +3,10 @@ package org.dsf.graphs;
 
 import java.util.Iterator;
 
-public class GraphDFS {
+public class UndirectedGraphDFS {
 
     static int Vertex=-1;
-    static Graph g=null;
+    static UndirectedGraph g=null;
 
     public void DFSUtil(int v, boolean visited[]){
         visited[v]=true;
@@ -30,7 +30,7 @@ public class GraphDFS {
 
     public static void main(String[] args) {
         Vertex=5;
-        g=new Graph(5);
+        g=new UndirectedGraph(5);
         g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);
@@ -39,7 +39,7 @@ public class GraphDFS {
         g.addEdge(3, 3);
 
         System.out.println("Following is Depth First Traversal (starting from vertex 2)");
-        GraphDFS dfs=new GraphDFS();
+        UndirectedGraphDFS dfs=new UndirectedGraphDFS();
         dfs.DFS(2);
     }
 
