@@ -6,7 +6,7 @@ public class InsertionSort {
 
     /*
         1) best case : sorted Array : Time Complexity O(n)
-        1) worse case : Reverse sorted Array : Time Complexity O(n2) theta(n2)
+        1) worse case : Reverse sorted Array : Time Complexity O(n^2) theta(n^2)
      */
 
     static void insertionSort(int[] arr){
