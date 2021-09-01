@@ -2,10 +2,10 @@ package org.dsf.graphs;
 
 import java.util.ArrayList;
 
-public class Graph {
+public class UndirectedGraph {
     ArrayList<ArrayList<Integer>> adj;
     int V;
-    Graph(int v)
+    UndirectedGraph(int v)
     {
         V = v;
         adj = new ArrayList<ArrayList<Integer> >(V);
@@ -37,7 +37,7 @@ class test{
         // Creating a graph with 5 vertices
         int V = 5;
 
-        Graph g = new Graph(V);
+        UndirectedGraph g = new UndirectedGraph(V);
 
         // Adding edges one by one.
         g.addEdge(0, 1);
